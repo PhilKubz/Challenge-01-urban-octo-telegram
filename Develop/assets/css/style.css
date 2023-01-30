@@ -19,9 +19,27 @@ body {
     color: #ffffff;
 }
 
-.header h1 {
+/* Removed '.header' from '.header h1' because the focus is aimed at the 'h1' only */
+
+h1 {
     display: inline-block;
     font-size: 48px;
+}
+
+/* Moved 'h2' element into a better order of semantics (from bottom of list to being below 'h1')
+Condensed 3 similar items with the same properties into one class element */
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Set 'h3' as the class element, removing surplus wording, as well as condensing 
+3 class selectors into just the one 'h3' element */
+
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 .header h1 .seo {
@@ -45,13 +63,10 @@ body {
     margin-left: 25px;
 }
 
+
 a {
     color: #ffffff;
     text-decoration: none;
-}
-
-p {
-    font-size: 16px;
 }
 
 .hero {
@@ -61,6 +76,10 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+
+p {
+    font-size: 16px;
 }
 
 .float-left {
@@ -90,49 +109,19 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/*Condensed lead, brand, and cost into one group since they contain the same property values */
+
+
+.benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
 
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
+/*Condensed 3 elements into one for efficient coding purposes,
+since they have the same properties affecting them */
 
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -165,31 +154,10 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
+/*Condensed 3 elements that have the same properties for images */
+
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 .footer {

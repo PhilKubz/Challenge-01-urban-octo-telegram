@@ -1,5 +1,5 @@
 # Challenge 01
-Introductory Project that use a sample website to showcase newly learned web development skills:
+Introductory Project that uses a sample website to showcase newly learned web development skills:
 
 **Responsive design** 
 
@@ -32,4 +32,7 @@ web application's appearance and functionality.
   - Linked a CSS reset sheet to improve consistency across different browsers. In this case, it is a standard reset sheet that is linked in order to allow for consistency, especially with areas such as font and spacing.
   
 ## Website Link
-This link will direct you to a live version of the Challenge 01 project
+This link will direct you to a live version of the Challenge 01 project:
+
+[Challenge-01](https://philkubz.github.io/Challenge-01-urban-octo-telegram/)
+
