@@ -1,4 +1,6 @@
-* {
+* /* Implement a standard reset sheet to allow for accessibility/consistency when viewing
+the webpage on different browsers  */
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;

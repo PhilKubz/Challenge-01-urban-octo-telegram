@@ -8,6 +8,8 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Introduce flex properties to allow for responsive design.
+-- Specifically to allow header to text to wrap and remain in sequential order */
 .header {
     display: flex;
     flex-wrap: wrap;
@@ -201,6 +203,8 @@ p {
     font-size: 20px;
 }
 
+/* Introduce media query to define what elements need to adjust for varying screen sizes
+-- Specifically in this case to allow for mobile device responsiveness when viewing the webpage*/
 @media screen and (max-width: 768px) {
     .header,
     nav {
